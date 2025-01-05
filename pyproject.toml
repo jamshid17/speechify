@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "speechify"
+version = "0.1.0"
+description = "A simple FastAPI project for text-to-speech and OCR functionality"
+authors = ["Jamshid <jamshidjabbarov17@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.115.6"
+pyttsx3 = "2.98"
+pytesseract = "0.3.13"
+sqlalchemy = "2.0.36"
+uvicorn = "0.34.0"
+python_multipart = "0.0.20"
+python-dotenv = "1.0.1"
+gTTS = "2.5.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

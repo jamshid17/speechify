@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Poetry
+poetry.lock
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest
+.cache/
+
+# FastAPI and Uvicorn
+*.log
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Generated audio files
+audio_files/
+
+# Logs
+logs/
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.cover
+coverage.xml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
